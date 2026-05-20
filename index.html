@@ -1,65 +1,321 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dream portal</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="shortcut icon" href="https://images.stockcake.com/public/d/5/2/d52af931-74ce-4172-a02e-94b44eab4c0c_large/cosmic-dream-portal-stockcake.jpg" type="image/x-icon">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cause:wght@100..900&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+AR+Guides&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="shortcut icon"
+      href="https://images.stockcake.com/public/d/5/2/d52af931-74ce-4172-a02e-94b44eab4c0c_large/cosmic-dream-portal-stockcake.jpg"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cause:wght@100..900&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+AR+Guides&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- amimate link -->
+     <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <!-- anime scroll -->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </head>
+  <body>
     <header>
-        <div id="heading">
-            <div id="logo">
-            <img src="./assets/dream portal logo.jpeg" alt="">         
-            <p>DreamPortal <br>
-            <span style="font-size: 14px;color: #be8cbb;">A portal to Dream Worlds</span></p>
-            </div>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Features</a></li>
-                <li><a href="">Testimonials</a></li>
-                <li><a href="">Contact</a></li>
-                <li class="portalbtn"><a href="">Enter the Portal</a></li>
-            </ul>
+      <div id="heading">
+        <div class="logo">
+          <img src="./assets/dream portal logo.jpeg" alt="" />
+          <p>
+            DreamPortal <br />
+            <span style="font-size: 14px; color: #be8cbb"
+              >A portal to Dream Worlds</span
+            >
+          </p>
         </div>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#explore">About</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#Testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li class="portalbtn"><a href="">Enter the Portal</a></li>
+        </ul>
+      </div>
     </header>
     <section id="home">
-        <div id="homecontainer">
+      <div id="homecontainer">
         <div id="homecontant">
-            <h1>Step In. <br>
-            Dream Beyound.</h1>
-            <p>DreamPortal lets you explore limitless dream worlds crafted for wonder, relaxation, and inspiration.</p>
-            </div>
-            <div id="homebtn">
-            <ul>
-                <li class="portalbtn"><a href="" style="color: white;">Enter the Portal</a></li>
-                <li id="learnbtn"><a href="">Learn more ></a></li>
-            </ul>
-            </div>
+          <h1 class="animate__animated animate__backInDown">
+            <span style="color: #e7c9e5">Step In. </span><br />
+            <span
+              style="
+                background: linear-gradient(
+                  to right,
+                  #b46cff,
+                  #d7b8ff,
+                  #8fd3ff
+                );
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+              "
+              >Dream Beyound.</span
+            >
+          </h1>
+          <p class="animate__animated animate__pulse">
+            DreamPortal lets you explore limitless dream worlds crafted for
+            wonder, relaxation, and inspiration.
+          </p>
+        </div>
+        <div id="homebtn">
+          <ul>
+            <li class="portalbtn" >
+              <a
+                href=""
+                style="color: white; padding: 12px 30px; border-radius: 20px"
+                >Enter the Portal</a
+              >
+            </li>
+            <li id="learnbtn"><a href="">Learn more ></a></li>
+          </ul>
+        </div>
 
-            <div id="homecard">
-             <div class="homefeature">
-            <h3>Endless Worlds <br>
-            Explore without limits</h3>
-            </div>
+        <div id="homecard" class="animate__animated animate__fadeInLeft">
+          <div class="homeicon">
+            <i class="fa-solid fa-cloud" style="color: rgb(230, 185, 233)"></i>
+          </div>
+          <div class="homefeature">
+            <h3>
+              Endless Worlds <br />
+              <span style="font-size: 14px; color: #be8cbb"
+                >Explore without limits</span
+              >
+            </h3>
+          </div>
 
-            <div class="homefeature">
-            <h3>Relax & Escape <br>
-            Unwind and recharge</h3>
-            </div>
+          <div class="homeicon">
+            <i class="fa-solid fa-star" style="color: rgb(230, 185, 233)"></i>
+          </div>
+          <div class="homefeature">
+            <h3>
+              Relax & Escape <br />
+              <span style="font-size: 14px; color: #be8cbb"
+                >Unwind and recharge</span
+              >
+            </h3>
+          </div>
 
-            <div class="homefeature">
-            <h3>Inspire Your Mind <br>
-            Creatinity starts here</h3>
-            </div>
+          <div class="homeicon">
+            <i
+              class="fa-sharp fa-solid fa-heart"
+              style="color: rgb(230, 185, 233)"
+            ></i>
+          </div>
+          <div class="homefeature">
+            <h3>
+              Inspire Your Mind <br />
+              <span style="font-size: 14px; color: #be8cbb"
+                >Creatinity starts here</span
+              >
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="features">
+      <div class="featureshead">
+        <h3>FEATURES</h3>
+        <h1>Why You'll Love DreamPortal</h1>
+      </div>
+      <div class="feature-card">
+        <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" class="f-card">
+          <img src="./assets/dreamworld.webp" alt="" />
+          <h3>Crafted Dream Worlds</h3>
+          <p>
+            Handcrafted dreamscapes designed to transport you to another
+            universe.
+          </p>
+        </div>
+        <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" class="f-card">
+          <img src="./assets/cloud-experience.jpeg" alt="" />
+          <h3>Personalized Experience</h3>
+          <p id="f-para1">
+            Choose your mood, and we'll curate the perfect world just for you.
+          </p>
+        </div>
+        <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" class="f-card">
+          <img src="./assets/portal-gate.webp" alt="" width="150px" />
+          <h3>Safe & Peacefull</h3>
+          <p id="f-para2">
+            A secure, positive space where you can explore, relax, and be
+            yourself.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="Testimonials">
+      <div class="featureshead">
+        <h3>TESTIMONIALS</h3>
+        <h1>What Dreamers Are Saying</h1>
+      </div>
 
+      <div class="testimonialscard">
+        <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" class="t-card">
+          <div class="quote">
+            <i
+              class="fa-sharp fa-solid fa-quote-left"
+              style="color: rgb(177, 151, 252)"
+            ></i>
+          </div>
+          <p>
+            DreamPortal is my nightly escape. It helps me relax and sleep like
+            never before.
+          </p>
+          <div class="t-img">
+            <img src="./assets/girl.avif" alt="" />
+            <div class="intro">
+              <h3>Emily.s</h3>
+              <h4 style="color: #6e0d69c1">Student</h4>
+              <div class="star">★ ★ ★ ★ ★</div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" class="t-card">
+          <div class="quote">
+            <i
+              class="fa-sharp fa-solid fa-quote-left"
+              style="color: rgb(177, 151, 252)"
+            ></i>
+          </div>
+          <p>
+            DreamPortal is my nightly escape. It helps me relax and sleep like
+            never before.
+          </p>
+          <div class="t-img">
+            <img src="./assets/men.jpg" alt="" />
+            <div class="intro">
+              <h3>Joshan.J</h3>
+              <h4 style="color: #6e0d69c1">Desiner</h4>
+              <div class="star">★ ★ ★ ★ ★</div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" class="t-card">
+          <div class="quote">
+            <i
+              class="fa-sharp fa-solid fa-quote-left"
+              style="color: rgb(177, 151, 252)"
+            ></i>
+          </div>
+          <p>
+            DreamPortal is my nightly escape. It helps me relax and sleep like
+            never before.
+          </p>
+          <div class="t-img">
+            <img src="./assets/girl2.jpg" alt="" />
+            <div class="intro">
+              <h3>Sofia.s</h3>
+              <h4 style="color: #6e0d69c1">Writer</h4>
+              <div class="star">★ ★ ★ ★ ★</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="explore">
+        <div class="explore-head">
+        <div class="explore-container">
+            <h1>Ready to explore?</h1> 
+            <p>Countless worlds are waiting for you.</p>
+            </div>
+            <div class="explore-btn">
+                <button>Enter the Portal</button>
             </div>
             </div>
     </section>
-</body>
+    <section id="contact">
+      <div class="logocontainer">
+      <div class="logo">
+          <img style="width: 80px; " src="./assets/dream portal logo.jpeg" alt="" />
+          <p style="font-size: 25px; margin-left: 7px; color: white; margin-top: 20px; font-family: 'Playfair Display', serif;">
+            DreamPortal <br />
+            <span style="font-size: 14px; color: #be8cbb;font-family: 'Roboto', sans-serif;">A portal to Dream Worlds</span
+            >
+          </p>
+          </div>
+          <p class="c-para">
+            Explore.Dream.Inspire. <br>
+            Your adventure begins here.
+          </p>
+          </div>
+          <div class="q-link">
+            <h3>Quick Links</h3>
+            <ul style="color: #e7c9e5;">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#contact">Experience</a></li>
+              <li><a href="#Testimonials">Testimonials</a></li>
+              <li><a href="#home">About</a></li>
+            </ul>
+          </div>
+          <div class="followus">
+            <h3>Follow Us</h3>
+            <div class="follow-icons">
+              <div class="eachicon">
+                <a target="_blank" href="https://www.linkedin.com/in/shifona-g-shaji/"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+               <div class="eachicon">
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              </div>
+               <div class="eachicon">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+               <div class="eachicon">
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="subscribe">
+            <h3>Stay Connected</h3>
+            <p>Subscribe to get updated on <br>
+            new dream worlds and features.</p>
+            <div class="type-box">
+            <input id="email-box" type="email" placeholder="Enter your email" required>
+            <input id="btn-box" type="button" value="Subscribe" required>
+          </div>
+          </div>
+    </section>
+    <footer>
+      <p>&copy; 2026 DreamPortal. All rights reserved. (Fictional Product)</p>
+      <div style="position: fixed; right: 0; bottom: 0;" class="eachicon">
+          <a href="#heading"><i class="fa-solid fa-arrow-up"></i></a>
+        </div>
+    </footer>
+  </body>
+  <script>
+  AOS.init();
+</script>
 </html>
